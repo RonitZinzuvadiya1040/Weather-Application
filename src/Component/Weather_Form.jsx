@@ -39,7 +39,7 @@ const WeatherForm = (props) => {
     setForeCasting(event.target.value);
   };
 
-  const weatherHandler = (event) => 
+  const weatherDataHandler = (event) => 
   {
     event.preventDefault();
     
@@ -152,7 +152,7 @@ const WeatherForm = (props) => {
           <div className="title">Weather Information Data Form</div>
         </u>
         
-          <form onSubmit={weatherHandler}>
+          <form onSubmit={weatherDataHandler}>
             
             <div className="form">
               
