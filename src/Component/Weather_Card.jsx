@@ -1,6 +1,6 @@
 import React from "react";
 
-import Card from "./Card";
+import Card from "./Display";
 import Layout from "./Layout";
 
 
