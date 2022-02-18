@@ -1,0 +1,99 @@
+@import url(https://cdnjs.cloudflare.com/ajax/libs/weather-icons/2.0.9/css/weather-icons.min.css);
+
+.widget {
+  position: relative;
+  width: 700px;
+  height: 263px;
+  margin: 50px auto;
+  border-radius: 9px;
+  background-color: #fdfcfc;
+  padding: 37px;
+  padding-right: 30px;
+  box-shadow: 10px 31px 35px -26px #080c21;
+}
+
+
+.night .city {
+  color: #fff;
+}
+
+
+.night .date {
+  color: #fff;
+}
+
+
+.night .temp {
+  color: #fff;
+}
+
+
+.night {
+  background-color: #000;
+  color: #fff;
+}
+
+
+.yellow {
+  background-color: yellow;
+  color: #000;
+}
+
+
+.white {
+  background-color: #fff;
+  color: #000;
+}
+
+
+.date {
+  font-size: 10px;
+  font-weight: bold;
+  color: rgba(0, 0, 0, 0.5);
+}
+
+
+.city {
+  font-size: 21px;
+  font-weight: bold;
+  text-transform: uppercase;
+  padding-top: 5px;
+  color: rgba(0, 0, 0, 0.7);
+}
+
+
+.temp {
+  font-size: 81px;
+  color: rgba(0, 0, 0, 0.9);
+  font-weight: 100;
+}
+
+
+.forecast {
+  font-size: 20px;
+  font-weight: 500;
+  text-transform: capitalize;
+  padding-top: 10px;
+}
+
+
+.right-panel {
+  position: absolute;
+  float: right;
+  top: 0;
+  margin-top: 62px;
+  padding-left: 200px;
+}
+
+
+.right-panel h1 {
+  font-size: 80px;
+  padding-left: 30px;
+  margin: 8px 20px;
+}
+
+
+.panel {
+  display: inline-block;
+}
+
